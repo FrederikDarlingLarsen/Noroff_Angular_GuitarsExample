@@ -1,1 +1,4 @@
-<p>guitar-catalogue works!</p>
+<main class="container">
+    <app-guitar-list [guitars]="guitars"></app-guitar-list>
+    <p *ngIf="loading" >loading...</p>
+</main>
